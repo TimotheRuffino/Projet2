@@ -73,48 +73,31 @@ a:hover {
   color: black;;
   text-decoration:underline}
 
-.button>button {
-  display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
-    padding:0px 0 0px 0;
-    font:bold 13px Arial;
-    color:#555;
-    border-radius:2px;
-    width:100px;
-    border:1px solid #ccc;
-  }
-
-.button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: auto;
+#bouton1>button{
+  width:140px;
+  height:30px;
+  background-color: #f2f5f3;
+  font-size:15px;
+  color:#444;
+  border-radius: 3px;
+  border :2px solid #e6ede8;
 }
+
 
 #bouton1 {
   list-style-type: none; 
   display: flex;
   justify-content: center;
-  background-color: white;
-    border: 1px solid white;
-    border-radius: 4px;
-    color: white;
-    font-family: arial,sans-serif;
-    font-size: 14px;
-    margin: 11px 4px;
-    padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
+  margin-top: 30px;
 
   
 }
+
+
+.btn2 {
+  margin-left:40px;
+}
+
 
 #bas {
   display: flex;
@@ -122,4 +105,18 @@ a:hover {
   flex-wrap: wrap;
   justify-content: baseline;
   align-items: flex-end;
+  list-style: none;
+  margin-top:355px;
+  border: 1px solid #d6d5d2;
+  height: 40px;
+  background-color: #e8eaed;
+}
+
+#bas>li {
+  margin-left: 40px;
+  font-size: 15px;
+}
+
+#espace {
+  width: 150px;
 }
