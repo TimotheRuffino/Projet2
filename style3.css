@@ -1,0 +1,38 @@
+#hautdroite {
+  list-style-type: none; 
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+}
+
+#hautdroite>li {
+  margin-right:30px;
+} 
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+#logo>img {
+  
+  margin: auto auto auto auto;
+  width: 500px;
+  height: 235px;
+  
+}
+
+
+
+.recherche {
+  display:flex;
+  
+  
+}
+
+.recherche>input{
+  margin: 30px auto 0 auto;
+}
+
